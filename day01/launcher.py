@@ -1,16 +1,28 @@
 import sys
 import time
-from Part1.day01_Part1 import part1
-from Part2.day01_Part2 import part2
+from Part1.part1 import part1
+from Part2.part2 import part2
+
+
+def help():
+    print("Usage: python3 launcher.py [Options] <filename>")
+    print("Options:")
+    print("    -h: print this help message")
+    print("    -p1: Run only Part 1")
+    print("    -p2: Run only Part 2")
+    print("    -t: print the time took to run each part")
+    sys.exit(1)
 
 def main():
     args = sys.argv[1:]
     if len(args) == 0:
-        print("Usage: python3 launcher.py [Options] <filename>")
-        print("Options:")
-        print("    -p1: Run only Part 1")
-        print("    -p2: Run only Part 2")
-        print("    -t: print the time took to run each part")
+        help()
+
+    if '-h' in args:
+        help()
+
+    if '-p1' in args and '-p2' in args:
+        print("Error: To run both Part 1 and Part 2 use no options")
         sys.exit(1)
 
     filename = args[-1]

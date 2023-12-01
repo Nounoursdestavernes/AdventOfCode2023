@@ -3,7 +3,7 @@ import string
 
 
 def part1(filename: str) -> int:
-    """Returns the sum_of_calibrations of all calibrations in the file"""
+    """Returns the sum of all calibrations in the file"""
     lines = []
     with open(filename, 'r', encoding='utf-8') as f:
         lines = f.readlines()
