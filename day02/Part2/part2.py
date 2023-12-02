@@ -1,12 +1,7 @@
 # Description: Day 2 Part 1 of Advent of Code 2023
 
-def part2(filename: str) -> int:
+def part2(lines: str) -> int:
     """Returns the sum of the line's power"""
-    lines = []
-    with open(filename, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-
-
     sum_of_power = 0
 
     for _, line in enumerate(lines):

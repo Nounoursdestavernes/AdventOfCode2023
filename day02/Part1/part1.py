@@ -1,11 +1,7 @@
 # Description: Day 2 Part 1 of Advent of Code 2023
 
-def part1(filename: str) -> int:
+def part1(lines: str) -> int:
     """Returns the sum of the ids of the line that have possible sets"""
-    lines = []
-    with open(filename, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-
 
     sum_of_ids = 0
     conditions = {'red' : 12, 'green' : 13, 'blue': 14}

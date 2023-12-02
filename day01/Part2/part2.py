@@ -4,12 +4,8 @@ import string
 also_digits = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 
 
-def part2(filename : str) -> int:
+def part2(lines : str) -> int:
     """Returns the sum of all calibrations in the file"""
-
-    lines = []
-    with open(filename, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
 
     sum_of_calibrations = 0
 
