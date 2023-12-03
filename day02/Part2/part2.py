@@ -1,4 +1,4 @@
-# Description: Day 2 Part 1 of Advent of Code 2023
+# Description: Day 2 Part 2 of Advent of Code 2023
 
 def part2(lines: str) -> int:
     """Returns the sum of the line's power"""

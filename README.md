@@ -18,3 +18,9 @@ Additionnal rules (Personnal challenge) :
 [problem](https://adventofcode.com/2023/day/2) / [solution](./day02/)
 
 ![Benchmark day 02](benchmarks/day02.png)
+
+## [Day 03 : Gear Ratios](https://adventofcode.com/2023/day/3)
+
+[problem](https://adventofcode.com/2023/day/3) / [solution](./day03/)
+
+![Benchmark day 03](benchmarks/day03.png)
