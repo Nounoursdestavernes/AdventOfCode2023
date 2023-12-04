@@ -24,3 +24,9 @@ Additionnal rules (Personnal challenge) :
 [problem](https://adventofcode.com/2023/day/3) / [solution](./day03/)
 
 ![Benchmark day 03](benchmarks/day03.png)
+
+## [Day 04 : Scratchcards](https://adventofcode.com/2023/day/4)
+
+[problem](https://adventofcode.com/2023/day/4) / [solution](./day04/)
+
+![Benchmark day 04](benchmarks/day04.png)
