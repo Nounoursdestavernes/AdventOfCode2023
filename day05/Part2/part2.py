@@ -24,35 +24,34 @@ def part2(lines: list[str]) -> int:
             conv_dict[numbers[1], numbers[1] + numbers[2] - 1] = numbers[0]
         conv_parts.append(conv_dict)
 
-
     for i in range(len(conv_parts)):
-        d = conv_parts[i]
-        interss = []
-        still = copy.deepcopy(seeds)
+        conv_dict = conv_parts[i]
+        tmp_seeds = []
+        still = seeds
         while still:
-            a, b = still.pop()
+            seed_start, seed_end = still.pop()
             added = False
-            for a1, b1 in d:
-                dec = d[(a1, b1)]
-                if a1 <= a <= b1 and a1 <= b <= b1:
-                    interss.append((dec + a - a1, dec + b - a1))
+            for map_start, map_end in conv_dict:
+                dec = conv_dict[(map_start, map_end)]
+                if map_start <= seed_start <= map_end and map_start <= seed_end <= map_end:
+                    tmp_seeds.append((dec + seed_start - map_start, dec + seed_end - map_start))
                     added = True
-                elif a1 <= b <= b1:
-                    interss.append((dec, dec + b - a1))
-                    still.append((a, a1 - 1))
+                elif map_start <= seed_end <= map_end:
+                    tmp_seeds.append((dec, dec + seed_end - map_start))
+                    still.append((seed_start, map_start - 1))
                     added = True
-                elif a1 <= a <= b1:
-                    interss.append((dec + a - a1, dec + b1 - a1))
-                    still.append((b1 + 1, b))
+                elif map_start <= seed_start <= map_end:
+                    tmp_seeds.append((dec + seed_start - map_start, dec + map_end - map_start))
+                    still.append((map_end + 1, seed_end))
                     added = True
-                elif a < a1 and b > b1:
-                    interss.append((dec, dec + b1 - a1))
-                    still.append((a, a1 - 1))
-                    still.append((b1 + 1, b))
+                elif seed_start < map_start and seed_end > map_end:
+                    tmp_seeds.append((dec, dec + map_end - map_start))
+                    still.append((seed_start, map_start - 1))
+                    still.append((map_end + 1, seed_end))
                     added = True
             if not added:
-                interss.append((a, b))
+                tmp_seeds.append((seed_start, seed_end))
 
-        seeds = interss
+        seeds = tmp_seeds
 
     return min(seeds)[0]
