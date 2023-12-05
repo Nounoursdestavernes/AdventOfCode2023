@@ -37,7 +37,7 @@ def main():
         print("Processor:", platform.processor())
         print("Python version:", platform.python_version())
         
-        print("Day: 04\n")
+        print("Day: 05\n")
         print("Part 1:")
         start = time.time()
         part1(lines)
