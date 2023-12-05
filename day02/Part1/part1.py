@@ -1,6 +1,6 @@
 # Description: Day 2 Part 1 of Advent of Code 2023
 
-def part1(lines: str) -> int:
+def part1(lines: list[str]) -> int:
     """Returns the sum of the ids of the line that have possible sets"""
 
     sum_of_ids = 0

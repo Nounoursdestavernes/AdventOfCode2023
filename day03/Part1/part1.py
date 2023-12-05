@@ -7,7 +7,7 @@ def is_a_symbol(char: str) -> bool:
     return char not in not_symbol
 
 
-def is_adjacent_to_a_symbol(lines: str, line_index: int, char_index: int) -> bool:
+def is_adjacent_to_a_symbol(lines: list[str], line_index: int, char_index: int) -> bool:
     """Returns True if the char is adjacent to a symbol"""
     length_of_line = len(lines[line_index])
     length_of_lines = len(lines)
@@ -68,7 +68,7 @@ def get_number(line: str, line_index: int, char_index: int) -> int:
     return number, number_positions
 
 
-def part1(lines: str) -> int:
+def part1(lines: list[str]) -> int:
     """Returns the sum of the engine part"""
     sum_of_engine_part = 0
 

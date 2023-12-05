@@ -2,7 +2,7 @@
 import re
 
 
-def part1(lines: str) -> int:
+def part1(lines: list[str]) -> int:
     """Returns the number of points from scratch cards"""
     points = 0
     for _, line in enumerate(lines):

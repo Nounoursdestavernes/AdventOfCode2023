@@ -4,7 +4,7 @@ import string
 also_digits = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 
 
-def part2(lines : str) -> int:
+def part2(lines : list[str]) -> int:
     """Returns the sum of all calibrations in the file"""
 
     sum_of_calibrations = 0

@@ -1,7 +1,7 @@
 # Description: Day 3 Part 2 of Advent of Code 2023
 import string
 
-def is_adjacent_to_digits(lines: str, line_index: int, char_index: int) -> list:
+def is_adjacent_to_digits(lines: list[str], line_index: int, char_index: int) -> list:
     """Returns a list of positions of the adjacent digits"""
     length_of_line = len(lines[line_index])
     length_of_lines = len(lines)
@@ -136,7 +136,7 @@ def get_number(line: str, line_index: int, char_index: int) -> int:
     return number, number_positions
 
 
-def part2(lines: str) -> int:
+def part2(lines: list[str]) -> int:
     """Returns the sum of the line's engine part"""
     sum_of_engine_part = 0
 

@@ -2,7 +2,7 @@
 import string
 
 
-def part1(lines: str) -> int:
+def part1(lines: list[str]) -> int:
     """Returns the sum of all calibrations in the file"""
     sum_of_calibrations = 0
 

@@ -1,6 +1,6 @@
 # Description: Day 2 Part 2 of Advent of Code 2023
 
-def part2(lines: str) -> int:
+def part2(lines: list[str]) -> int:
     """Returns the sum of the line's power"""
     sum_of_power = 0
 

@@ -1,7 +1,7 @@
 # Description: Day 4 Part 2 of Advent of Code 2023
 import re
 
-def part2(lines: str) -> int:
+def part2(lines: list[str]) -> int:
     """Returns the number of scratch cards"""
     copies = [1] * len(lines)
 
