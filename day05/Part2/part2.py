@@ -1,8 +1,5 @@
 # Description: Day 5 Part 2 of Advent of Code 2023
 import re
-import copy
-import time
-
 def part2(lines: list[str]) -> int:
     """Returns the lowest location"""
     input = "".join(lines)
