@@ -40,10 +40,10 @@ def main():
     filename = args[-1]
     with open(filename, 'r', encoding='utf-8') as f:
         if '-b' in args:
-            start_read = time.time()
+            start_read = time.perf_counter()
         lines = f.readlines()
         if '-b' in args:
-            duration_read = time.time() - start_read
+            duration_read = time.perf_counter() - start_read
 
     if '-a' in args:
         print("Asserting...")
@@ -59,46 +59,46 @@ def main():
         
         print("Day: 06\n")
         print("Part 1:")
-        start = time.time()
+        start = time.perf_counter()
         for _ in range(1000):
             part1(lines)
-        time_p1 = time.time() - start
+        time_p1 = time.perf_counter() - start
         print("Time part 1 (mean time over 1000 runs):", time_p1 / 1000 + duration_read)
         print("Part 2:")
-        start = time.time()
+        start = time.perf_counter()
         for _ in range(1000):
             part2(lines)
-        time_p2 = time.time() - start
+        time_p2 = time.perf_counter() - start
         print("Time part 2 (mean time over 1000 runs):", time_p2 / 1000 + duration_read)
         print("Time part 1 and 2 (mean time over 1000 runs for each part):", time_p1 / 1000 + time_p2 / 1000 + duration_read)
         sys.exit(0)
 
     if '-p1' in args:
         if '-t' in args:
-            start = time.time()
+            start = time.perf_counter()
         print("Part 1:", part1(lines))
         if '-t' in args:
-            print("Time part 1:", time.time() - start)
+            print("Time part 1:", time.perf_counter() - start)
         sys.exit(0)
 
     if '-p2' in args:
         if '-t' in args:
-            start = time.time()
+            start = time.perf_counter()
         print("Part 2:", part2(lines))
         if '-t' in args:
-            print("Time part 2:", time.time() - start)
+            print("Time part 2:", time.perf_counter() - start)
         sys.exit(0)
     
     if '-t' in args:
-        start = time.time()
+        start = time.perf_counter()
     print("Part 1:", part1(lines))
     if '-t' in args:
-        print("Time part 1:", time.time() - start)
+        print("Time part 1:", time.perf_counter() - start)
     if '-t' in args:
-        start = time.time()
+        start = time.perf_counter()
     print("Part 2:", part2(lines))
     if '-t' in args:
-        print("Time part 2:", time.time() - start)
+        print("Time part 2:", time.perf_counter() - start)
     sys.exit(0)
     
 
