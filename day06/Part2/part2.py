@@ -10,12 +10,15 @@ def part2(lines: list[str]) -> int:
     distance = int("".join(tmp_distance))
 
     start_winning = 0
-    for waiting_time in range(time):
-        velocity = waiting_time
-        remaining_time = time - waiting_time
+    end = time
+    while start_winning != end:
+        middle = (start_winning + end) // 2
+        velocity = middle
+        remaining_time = time - middle
         if velocity * remaining_time > distance:
-            start_winning = waiting_time
-            break
+            end = middle
+        else:
+            start_winning = middle + 1
             
     end_winning = time + 1 - start_winning
 
