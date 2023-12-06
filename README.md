@@ -36,3 +36,9 @@ Additionnal rules (Personnal challenge) :
 [problem](https://adventofcode.com/2023/day/5) / [solution](./day05/)
 
 ![Benchmark day 05](benchmarks/day05.png)
+
+## [Day 06 : Wait For It](https://adventofcode.com/2023/day/6)
+
+[problem](https://adventofcode.com/2023/day/6) / [solution](./day06/)
+
+![Benchmark day 06](benchmarks/day06.png)

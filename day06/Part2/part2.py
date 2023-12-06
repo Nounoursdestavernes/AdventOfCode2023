@@ -9,12 +9,17 @@ def part2(lines: list[str]) -> int:
     tmp_distance = re.findall(r'\d+', lines[1])
     distance = int("".join(tmp_distance))
 
-    number_of_ways_race = 0
+    start_winning = 0
     for waiting_time in range(time):
         velocity = waiting_time
         remaining_time = time - waiting_time
         if velocity * remaining_time > distance:
-            number_of_ways_race += 1
-    
-    return number_of_ways_race
+            start_winning = waiting_time
+            break
+            
+    end_winning = time + 1 - start_winning
+
+    number_of_wins = end_winning - start_winning
+
+    return number_of_wins
 
