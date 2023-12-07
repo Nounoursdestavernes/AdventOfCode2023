@@ -42,3 +42,9 @@ Additionnal rules (Personnal challenge) :
 [problem](https://adventofcode.com/2023/day/6) / [solution](./day06/)
 
 ![Benchmark day 06](benchmarks/day06.png)
+
+## [Day 07 : Camel Cards](https://adventofcode.com/2023/day/7)
+
+[problem](https://adventofcode.com/2023/day/7) / [solution](./day07/)
+
+![Benchmark day 07](benchmarks/day07.png)
