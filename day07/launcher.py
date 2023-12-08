@@ -47,8 +47,8 @@ def main():
 
     if '-a' in args:
         print("Asserting...")
-        print("Part 1:", part1(lines) == 608902)
-        print("Part 2:", part2(lines) == 46173809)
+        print("Part 1:", part1(lines) == 253954294)
+        print("Part 2:", part2(lines) == 254837398)
         sys.exit(0)
 
     if '-b' in args:
