@@ -48,3 +48,9 @@ Additionnal rules (Personnal challenge) :
 [problem](https://adventofcode.com/2023/day/7) / [solution](./day07/)
 
 ![Benchmark day 07](benchmarks/day07.png)
+
+## [Day 08 : ...](https://adventofcode.com/2023/day/8)
+
+[problem](https://adventofcode.com/2023/day/8) / [solution](./day08/)
+
+![Benchmark day 08](benchmarks/day08.png)
