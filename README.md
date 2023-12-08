@@ -49,7 +49,7 @@ Additionnal rules (Personnal challenge) :
 
 ![Benchmark day 07](benchmarks/day07.png)
 
-## [Day 08 : ...](https://adventofcode.com/2023/day/8)
+## [Day 08 : Haunted Wasteland](https://adventofcode.com/2023/day/8)
 
 [problem](https://adventofcode.com/2023/day/8) / [solution](./day08/)
 
