@@ -54,3 +54,9 @@ Additionnal rules (Personnal challenge) :
 [problem](https://adventofcode.com/2023/day/8) / [solution](./day08/)
 
 ![Benchmark day 08](benchmarks/day08.png)
+
+## [Day 09 : Mirage Maintenance](https://adventofcode.com/2023/day/9)
+
+[problem](https://adventofcode.com/2023/day/9) / [solution](./day09/)
+
+![Benchmark day 09](benchmarks/day09.png)
