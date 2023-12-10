@@ -3,7 +3,7 @@
 
 Additionnal rules (Personnal challenge) :
 - All solutions must be written in Python
-- All solutions must run in less than a seconde
+- All parts must run in less than a seconde
 
 
 

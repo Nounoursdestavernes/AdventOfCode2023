@@ -1,4 +1,4 @@
-# Description: Day 10 Part 1 of Advent of Code 2023
+# Description: Day 10 Part 2 of Advent of Code 2023
 
 
 import re
