@@ -60,3 +60,9 @@ Additionnal rules (Personnal challenge) :
 [problem](https://adventofcode.com/2023/day/9) / [solution](./day09/)
 
 ![Benchmark day 09](benchmarks/day09.png)
+
+## [Day 10 : Pipe Maze](https://adventofcode.com/2023/day/10)
+
+[problem](https://adventofcode.com/2023/day/10) / [solution](./day10/)
+
+![Benchmark day 10](benchmarks/day10.png)
