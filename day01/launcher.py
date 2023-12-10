@@ -52,7 +52,6 @@ def main():
         sys.exit(0)
 
     if '-b' in args:
-        print("Benchmarking...")
         print("System:", platform.system())
         print("Processor:", platform.processor())
         print("Python version:", platform.python_version())
@@ -60,17 +59,15 @@ def main():
         print("Day: 01\n")
         print("Part 1:")
         start = time.perf_counter()
-        for _ in range(1000):
-            part1(lines)
+        part1(lines)
         time_p1 = time.perf_counter() - start
-        print("Time part 1 (mean time over 1000 runs):", time_p1 / 1000 + duration_read)
+        print("Time part 1:", time_p1 + duration_read)
         print("Part 2:")
         start = time.perf_counter()
-        for _ in range(1000):
-            part2(lines)
+        part2(lines)
         time_p2 = time.perf_counter() - start
-        print("Time part 2 (mean time over 1000 runs):", time_p2 / 1000 + duration_read)
-        print("Time part 1 and 2 (mean time over 1000 runs for each part):", time_p1 / 1000 + time_p2 / 1000 + duration_read)
+        print("Time part 2:", time_p2 + duration_read)
+        print("Time part 1 and 2:", time_p1 + time_p2 + duration_read)
         sys.exit(0)
 
     if '-p1' in args:

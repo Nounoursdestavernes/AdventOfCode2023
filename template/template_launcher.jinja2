@@ -47,8 +47,8 @@ def main():
 
     if '-a' in args:
         print("Asserting...")
-        print("Part 1:", part1(lines) == 608902)
-        print("Part 2:", part2(lines) == 46173809)
+        print("Part 1:", part1(lines) == {{res_part1|default(0, true)}})
+        print("Part 2:", part2(lines) == {{res_part2|default(0, true)}})
         sys.exit(0)
 
     if '-b' in args:
@@ -56,7 +56,7 @@ def main():
         print("Processor:", platform.processor())
         print("Python version:", platform.python_version())
         
-        print("Day: 06\n")
+        print("Day: {{day_number}}\n")
         print("Part 1:")
         start = time.perf_counter()
         part1(lines)
