@@ -111,20 +111,22 @@ def part1(lines : list[str]) -> int:
             if lines[i][j] == 'S':
                 start = (i, j)
                 break
+        else:
+            continue
+        break
 
-    adjacency_matrix = {}
 
+    # Searching for a cycle
     visited = set()
     stack = [start]
     beginning = True
-
     while len(stack) > 0:
         current = stack.pop()
         visited.add(current)
 
         if current in visited and current == start and not beginning: # if we found the cycle
             break
-
+        
         current_pipe = lines[current[0]][current[1]]
         if current[1] > 0:
             pipe_bfr = lines[current[0]][current[1] - 1]
@@ -139,76 +141,19 @@ def part1(lines : list[str]) -> int:
             pipe_down = lines[current[0] + 1][current[1]]
 
         if current[0] > 0 and connected_vertically(pipe_up, current_pipe) and (current[0] - 1, current[1]) not in visited:
-            
-            if str((current[0] - 1, current[1])) not in adjacency_matrix: # if the node is not in the adjacency matrix
-                adjacency_matrix[str((current[0] - 1, current[1]))] = {} 
-            adjacency_matrix[str((current[0] - 1, current[1]))][str(((current[0], current[1])))] = 1 # add the edge to the adjacency matrix
-
-            if str((current[0], current[1])) not in adjacency_matrix:
-                adjacency_matrix[str((current[0], current[1]))] = {}
-            adjacency_matrix[str((current[0], current[1]))][str(((current[0] - 1, current[1])))] = 1
-
             stack.append((current[0] - 1, current[1])) # add the node to the stack
             
         
         if current[0] < len(lines) - 1 and connected_vertically(current_pipe, pipe_down) and (current[0] + 1, current[1]) not in visited:
-
-            if str((current[0], current[1])) not in adjacency_matrix:
-                adjacency_matrix[str((current[0], current[1]))] = {}
-            adjacency_matrix[str((current[0], current[1]))][str(((current[0] + 1, current[1])))] = 1
-
-            if str((current[0] + 1, current[1])) not in adjacency_matrix:
-                adjacency_matrix[str((current[0] + 1, current[1]))] = {}
-            adjacency_matrix[str((current[0] + 1, current[1]))][str(((current[0], current[1])))] = 1
-
             stack.append((current[0] + 1, current[1]))
         
         if current[1] > 0 and connected_horizontally(pipe_bfr, current_pipe) and (current[0], current[1] - 1) not in visited:
-            
-            if str((current[0], current[1] - 1)) not in adjacency_matrix:
-                adjacency_matrix[str((current[0], current[1] - 1))] = {}        
-            adjacency_matrix[str((current[0], current[1] - 1))][str(((current[0], current[1])))] = 1
-
-            if str((current[0], current[1])) not in adjacency_matrix:
-                adjacency_matrix[str((current[0], current[1]))] = {}         
-            adjacency_matrix[str((current[0], current[1]))][str(((current[0], current[1] - 1)))] = 1
-
             stack.append((current[0], current[1] - 1))
             
         
         if current[1] < len(lines[current[0]]) - 1 and connected_horizontally(current_pipe, pipe_aft) and (current[0], current[1] + 1) not in visited:
-  
-            if str((current[0], current[1])) not in adjacency_matrix:
-                adjacency_matrix[str((current[0], current[1]))] = {}
-            adjacency_matrix[str((current[0], current[1]))][str(((current[0], current[1] + 1)))] = 1
-            
-            if str((current[0], current[1] + 1)) not in adjacency_matrix:
-                adjacency_matrix[str((current[0], current[1] + 1))] = {}
-            adjacency_matrix[str((current[0], current[1] + 1))][str(((current[0], current[1])))] = 1
-            
             stack.append((current[0], current[1] + 1))
         
         beginning = False
 
-
-    current_distance = 0 # the distance from the starting point to the farthest point 
-    
-    visited = set()
-    visited.add(start)
-    nexts = adjacency_matrix[str(start)]
-
-    # Finding the distance
-    while len(nexts) != 0:
-        tmp_nexts = []
-        for next in nexts:
-            if next in visited:
-                continue
-
-            visited.add(next)
-            tmp_nexts.extend(adjacency_matrix[next])
-
-        tmp_nexts = list(set(tmp_nexts))
-        current_distance += 1
-        nexts = tmp_nexts
-
-    return current_distance - 1 # we subtract 1 because we don't count the starting point
+    return len(visited) // 2
