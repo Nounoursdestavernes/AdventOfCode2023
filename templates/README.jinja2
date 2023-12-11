@@ -1,0 +1,16 @@
+# AdventOfCode2023
+[Advent of Code](https://adventofcode.com/2023/about) is an Advent calendar of small programming puzzles
+
+Additionnal rules (Personnal challenge) :
+- All solutions must be written in Python
+- All parts must run in less than a seconde
+
+{% for day in days %}
+## [Day {{day[0]}} : {{day[1]}}](https://adventofcode.com/2023/day/{{day[0]|int}})
+
+[problem](https://adventofcode.com/2023/day/{{day[0]|int}}) / [solution](./day{{day[0]}}/)
+
+```text
+{{day[2]}}
+```
+{% endfor %}
