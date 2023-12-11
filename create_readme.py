@@ -18,12 +18,14 @@ def create_readme() -> None:
     # Load the template
     template = env.get_template("README.jinja2")
     days = []
+    print("Benchmarking...")
     for day_number in config.sections():
         name = config[day_number]["name"]
         os.chdir(os.path.join("src", "day" + day_number))
         out = check_output(["python3", "launcher.py", "-b", os.path.join("inputs", "input.txt")]).decode("utf-8")
         days.append((day_number, name, out))
         os.chdir(os.path.join("..", "..")) 
+        print(f"Day {day_number} done")
     
     with open("README.md", "w") as f:
         f.write(template.render(days=days))

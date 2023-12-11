@@ -16,9 +16,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 01
 
-Time part 1: 0.0012999000005038397
-Time part 2: 0.016594484000506782
-Time part 1 and 2: 0.017790352000702114
+Time part 1 (mean time over 100 runs): 0.0013249374098450062
+Time part 2 (mean time over 100 runs): 0.016567408389842057
 ```
 
 ## [Day 02 : Cube Conundrum](https://adventofcode.com/2023/day/2)
@@ -31,9 +30,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 02
 
-Time part 1: 0.001015875999655691
-Time part 2: 0.0016001949998099008
-Time part 1 and 2: 0.0025829199994404917
+Time part 1 (mean time over 100 runs): 0.0004552493301935101
+Time part 2 (mean time over 100 runs): 0.00067335915019612
 ```
 
 ## [Day 03 : Gear Ratios](https://adventofcode.com/2023/day/3)
@@ -46,9 +44,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 03
 
-Time part 1: 0.04623244400045223
-Time part 2: 0.0022412780003833177
-Time part 1 and 2: 0.04843010200056597
+Time part 1 (mean time over 100 runs): 0.04516427145976195
+Time part 2 (mean time over 100 runs): 0.0021825553597636825
 ```
 
 ## [Day 04 : Scratchcards](https://adventofcode.com/2023/day/4)
@@ -61,9 +58,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 04
 
-Time part 1: 0.0027033809997192293
-Time part 2: 0.001930634999553149
-Time part 1 and 2: 0.0045792449996042706
+Time part 1 (mean time over 100 runs): 0.0018504672998687966
+Time part 2 (mean time over 100 runs): 0.0019748665298675405
 ```
 
 ## [Day 05 : If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)
@@ -76,9 +72,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 05
 
-Time part 1: 0.0018121369998880255
-Time part 2: 0.0017940440002348623
-Time part 1 and 2: 0.003568130000076053
+Time part 1 (mean time over 100 runs): 0.0007597786597807499
+Time part 2 (mean time over 100 runs): 0.0015635374197836428
 ```
 
 ## [Day 06 : Wait For It](https://adventofcode.com/2023/day/6)
@@ -91,9 +86,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 06
 
-Time part 1: 0.00022559699982593884
-Time part 2: 3.913199998351047e-05
-Time part 1 and 2: 0.0002511839998078358
+Time part 1 (mean time over 100 runs): 3.118148000794463e-05
+Time part 2 (mean time over 100 runs): 2.032122000855452e-05
 ```
 
 ## [Day 07 : Camel Cards](https://adventofcode.com/2023/day/7)
@@ -106,9 +100,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 07
 
-Time part 1: 0.7366991309995683
-Time part 2: 0.9084849239998221
-Time part 1 and 2: 1.6450848819995372
+Time part 1 (mean time over 100 runs): 0.739660361920296
+Time part 2 (mean time over 100 runs): 0.926567382420294
 ```
 
 ## [Day 08 : Haunted Wasteland](https://adventofcode.com/2023/day/8)
@@ -121,9 +114,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 08
 
-Time part 1: 0.00278487400009908
-Time part 2: 0.012750777999826823
-Time part 1 and 2: 0.015448731000105909
+Time part 1 (mean time over 100 runs): 0.0015961802499896295
+Time part 2 (mean time over 100 runs): 0.013077642649991504
 ```
 
 ## [Day 09 : Mirage Maintenance](https://adventofcode.com/2023/day/9)
@@ -136,9 +128,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 09
 
-Time part 1: 0.004071971000030317
-Time part 2: 0.0038802570002189896
-Time part 1 and 2: 0.007900081000116188
+Time part 1 (mean time over 100 runs): 0.0037384086398969886
+Time part 2 (mean time over 100 runs): 0.0038020019898976896
 ```
 
 ## [Day 10 : Pipe Maze](https://adventofcode.com/2023/day/10)
@@ -151,9 +142,8 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 10
 
-Time part 1: 0.03477817900056834
-Time part 2: 0.03975831600018864
-Time part 1 and 2: 0.07448659200053953
+Time part 1 (mean time over 100 runs): 0.032620187020193044
+Time part 2 (mean time over 100 runs): 0.0032470741101951715
 ```
 
 ## [Day 11 : Cosmic Expansion](https://adventofcode.com/2023/day/11)
@@ -166,7 +156,6 @@ Processor: x86_64
 Python version: 3.11.5
 Day: 11
 
-Time part 1: 0.017743188000622467
-Time part 2: 0.02039630900026168
-Time part 1 and 2: 0.038089905000560975
+Time part 1 (mean time over 100 runs): 0.016740635260166527
+Time part 2 (mean time over 100 runs): 0.02054999983016387
 ```

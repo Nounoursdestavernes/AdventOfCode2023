@@ -1,5 +1,6 @@
 import sys
 import time
+import timeit
 import platform
 from Part1.part1 import part1
 from Part2.part2 import part2
@@ -55,17 +56,12 @@ def main():
         print("System:", platform.system())
         print("Processor:", platform.processor())
         print("Python version:", platform.python_version())
-        
         print("Day: 06\n")
-        start = time.perf_counter()
-        part1(lines)
-        time_p1 = time.perf_counter() - start
-        print("Time part 1:", time_p1 + duration_read)
-        start = time.perf_counter()
-        part2(lines)
-        time_p2 = time.perf_counter() - start
-        print("Time part 2:", time_p2 + duration_read)
-        print("Time part 1 and 2:", time_p1 + time_p2 + duration_read)
+
+        time_p1 = timeit.timeit(lambda: part1(lines), number=100)
+        print("Time part 1 (mean time over 100 runs):", time_p1 / 100 + duration_read)
+        time_p2 = timeit.timeit(lambda: part2(lines), number=100)
+        print("Time part 2 (mean time over 100 runs):", time_p2 / 100 + duration_read)
         sys.exit(0)
 
     if '-p1' in args:
