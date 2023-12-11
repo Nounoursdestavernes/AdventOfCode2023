@@ -4,7 +4,7 @@ import platform
 from Part1.part1 import part1
 from Part2.part2 import part2
 
-allowed_options = ['-h', '-p1', '-p2', '-t', '-b', '-a']
+ALLOWED_OPTIONS = ['-h', '-p1', '-p2', '-t', '-b', '-a']
 
 def help():
     print("Usage: python3 launcher.py [Options] <filename>")
@@ -24,7 +24,7 @@ def main():
         sys.exit(0)
     
     for arg in args[:-1]:
-        if arg not in allowed_options:
+        if arg not in ALLOWED_OPTIONS:
             print("Error: Invalid options", arg)
             help()
             sys.exit(1)
@@ -57,12 +57,10 @@ def main():
         print("Python version:", platform.python_version())
         
         print("Day: 02\n")
-        print("Part 1:")
         start = time.perf_counter()
         part1(lines)
         time_p1 = time.perf_counter() - start
         print("Time part 1:", time_p1 + duration_read)
-        print("Part 2:")
         start = time.perf_counter()
         part2(lines)
         time_p2 = time.perf_counter() - start

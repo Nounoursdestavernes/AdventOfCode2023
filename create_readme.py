@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import configparser
 import os
 from jinja2 import Environment, FileSystemLoader
@@ -5,7 +6,7 @@ from subprocess import check_output
 
 # Load the config file
 config = configparser.ConfigParser()
-config.read("config/config.ini")
+config.read(os.path.join("config","config.ini"))
 
 # Define the Jinja2 Environment
 env = Environment(
@@ -19,10 +20,10 @@ def create_readme() -> None:
     days = []
     for day_number in config.sections():
         name = config[day_number]["name"]
-        os.chdir(f"src/day{day_number}")
-        out = check_output(["python3", "launcher.py", "-b", "inputs/input.txt"]).decode("utf-8")
+        os.chdir(os.path.join("src", "day" + day_number))
+        out = check_output(["python3", "launcher.py", "-b", os.path.join("inputs", "input.txt")]).decode("utf-8")
         days.append((day_number, name, out))
-        os.chdir("../..")
+        os.chdir(os.path.join("..", "..")) 
     
     with open("README.md", "w") as f:
         f.write(template.render(days=days))

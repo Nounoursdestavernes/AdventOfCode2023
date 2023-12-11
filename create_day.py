@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import sys
 from jinja2 import Environment, FileSystemLoader
@@ -21,7 +22,7 @@ def create_day(day_number: str) -> None:
     os.chdir("src")
 
     # Create the day folder
-    if f"day{day_number}" in os.listdir():
+    if os.path.exists(f"day{day_number}"):
         print(f"Day {day_number} already exists")
         sys.exit(1)
 
@@ -38,19 +39,20 @@ def create_day(day_number: str) -> None:
     os.mkdir("Part2")
 
     # Create the part1.py file
-    with open("Part1/part1.py", "w") as f:
+    
+    with open(os.path.join("Part1", "part1.py"), "w") as f:
         f.write(template.render(day_number=day_number, part_number="1"))
 
     # Create the part2.py file
-    with open("Part2/part2.py", "w") as f:
+    with open(os.path.join("Part2", "part2.py"), "w") as f:
         f.write(template.render(day_number=day_number, part_number="2"))
 
     # Create the input file
-    with open("inputs/input.txt", "w") as f:
+    with open(os.path.join("inputs", "input.txt"), "w") as f:
         pass
 
     # Create the launcher.py file
-    os.chdir("../..")
+    os.chdir(os.path.join("..", ".."))
     create_launcher(day_number)
    
 
