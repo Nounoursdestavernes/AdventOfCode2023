@@ -17,10 +17,10 @@ Python version: 3.11.5
 Day: 01
 
 Part 1:
-Time part 1: 0.0015789739999263475
+Time part 1: 0.00311309199992138
 Part 2:
-Time part 2: 0.017239156999949046
-Time part 1 and 2: 0.01871220199984691
+Time part 2: 0.017123884999818983
+Time part 1 and 2: 0.0201241359998221
 ```
 
 ## [Day 02 : Cube Conundrum](https://adventofcode.com/2023/day/2)
@@ -34,10 +34,10 @@ Python version: 3.11.5
 Day: 02
 
 Part 1:
-Time part 1: 0.0008400510000683425
+Time part 1: 0.0011827789999188099
 Part 2:
-Time part 2: 0.0006954950000590543
-Time part 1 and 2: 0.0015107920000900776
+Time part 2: 0.0009340930000689696
+Time part 1 and 2: 0.002092597000000751
 ```
 
 ## [Day 03 : Gear Ratios](https://adventofcode.com/2023/day/3)
@@ -51,10 +51,10 @@ Python version: 3.11.5
 Day: 03
 
 Part 1:
-Time part 1: 0.045781620999946426
+Time part 1: 0.04692629500004841
 Part 2:
-Time part 2: 0.0022055760000512237
-Time part 1 and 2: 0.047936416999959874
+Time part 2: 0.002231698000059623
+Time part 1 and 2: 0.049113861000250836
 ```
 
 ## [Day 04 : Scratchcards](https://adventofcode.com/2023/day/4)
@@ -68,10 +68,10 @@ Python version: 3.11.5
 Day: 04
 
 Part 1:
-Time part 1: 0.0024013339999555683
+Time part 1: 0.0019741940000130853
 Part 2:
-Time part 2: 0.001934183999992456
-Time part 1 and 2: 0.0042766130000018165
+Time part 2: 0.0019308840001031058
+Time part 1 and 2: 0.003852750000078231
 ```
 
 ## [Day 05 : If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)
@@ -85,10 +85,10 @@ Python version: 3.11.5
 Day: 05
 
 Part 1:
-Time part 1: 0.002058084000054805
+Time part 1: 0.002071166999940033
 Part 2:
-Time part 2: 0.0018317510000542825
-Time part 1 and 2: 0.0038524790001019937
+Time part 2: 0.001904183000078774
+Time part 1 and 2: 0.003936928000030093
 ```
 
 ## [Day 06 : Wait For It](https://adventofcode.com/2023/day/6)
@@ -102,10 +102,10 @@ Python version: 3.11.5
 Day: 06
 
 Part 1:
-Time part 1: 0.00012362999996184953
+Time part 1: 0.00020322199998190627
 Part 2:
-Time part 2: 2.5014999891936895e-05
-Time part 1 and 2: 0.00013545099989187293
+Time part 2: 3.741100022125465e-05
+Time part 1 and 2: 0.00022792900017520878
 ```
 
 ## [Day 07 : Camel Cards](https://adventofcode.com/2023/day/7)
@@ -119,10 +119,10 @@ Python version: 3.11.5
 Day: 07
 
 Part 1:
-Time part 1: 0.8242220659999475
+Time part 1: 0.7313840419999451
 Part 2:
-Time part 2: 0.942132059999949
-Time part 1 and 2: 1.7662635149998778
+Time part 2: 0.9282464499999605
+Time part 1 and 2: 1.6595343809999576
 ```
 
 ## [Day 08 : Haunted Wasteland](https://adventofcode.com/2023/day/8)
@@ -136,10 +136,10 @@ Python version: 3.11.5
 Day: 08
 
 Part 1:
-Time part 1: 0.002290417999915917
+Time part 1: 0.0017758719998255401
 Part 2:
-Time part 2: 0.012969688999987738
-Time part 1 and 2: 0.0151840829998946
+Time part 2: 0.012691958000004888
+Time part 1 and 2: 0.01439543399987997
 ```
 
 ## [Day 09 : Mirage Maintenance](https://adventofcode.com/2023/day/9)
@@ -153,10 +153,10 @@ Python version: 3.11.5
 Day: 09
 
 Part 1:
-Time part 1: 0.004053661999932956
+Time part 1: 0.003974948999939443
 Part 2:
-Time part 2: 0.003977377000069282
-Time part 1 and 2: 0.007979677999969681
+Time part 2: 0.0038636399999631976
+Time part 1 and 2: 0.007787653999912436
 ```
 
 ## [Day 10 : Pipe Maze](https://adventofcode.com/2023/day/10)
@@ -170,10 +170,10 @@ Python version: 3.11.5
 Day: 10
 
 Part 1:
-Time part 1: 0.033539725999958137
+Time part 1: 0.033915779000153634
 Part 2:
-Time part 2: 0.03991657399990345
-Time part 1 and 2: 0.07340879599996697
+Time part 2: 0.03612268999995649
+Time part 1 and 2: 0.06998388700003488
 ```
 
 ## [Day 11 : Cosmic Expansion](https://adventofcode.com/2023/day/11)
@@ -187,8 +187,8 @@ Python version: 3.11.5
 Day: 11
 
 Part 1:
-Time part 1: 0.023349681000013334
+Time part 1: 0.01681196100003035
 Part 2:
-Time part 2: 0.02194167599998309
-Time part 1 and 2: 0.04522822499995982
+Time part 2: 0.019891920999953072
+Time part 1 and 2: 0.03665386800003034
 ```

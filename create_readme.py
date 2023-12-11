@@ -29,4 +29,6 @@ def create_readme() -> None:
 
 
 if __name__ == "__main__":
+    print("Creating README.md...")
     create_readme()
+    print("README.md created successfully")
