@@ -48,15 +48,15 @@ def main():
 
     if '-a' in args:
         print("Asserting...")
-        print("Part 1:", part1(lines) == 31171)
-        print("Part 2:", part2(lines) == 131431655002266)
+        print("Part 1:", part1(lines) == 480738)
+        print("Part 2:", part2(lines) == 131550418841958)
         sys.exit(0)
 
     if '-b' in args:
         print("System:", platform.system())
         print("Processor:", platform.processor())
         print("Python version:", platform.python_version())
-        print("Day: 18\n")
+        print("Day: 19\n")
 
         time_p1 = timeit.timeit(lambda: part1(lines), number=100)
         print("Time part 1 (mean time over 100 runs):", time_p1 / 100 + duration_read)

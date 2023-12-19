@@ -256,3 +256,17 @@ Day: 18
 Time part 1 (mean time over 100 runs): 12.24978793431952
 Time part 2 (mean time over 100 runs): 0.001351367569523063
 ```
+
+## [Day 19 : Aplenty](https://adventofcode.com/2023/day/19)
+
+[problem](https://adventofcode.com/2023/day/19) / [solution](./src/day19/)
+
+```text
+System: Linux
+Processor: x86_64
+Python version: 3.11.5
+Day: 19
+
+Time part 1 (mean time over 100 runs): 0.012744244669665932
+Time part 2 (mean time over 100 runs): 0.001737059869665245
+```
