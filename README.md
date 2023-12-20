@@ -270,3 +270,18 @@ Day: 19
 Time part 1 (mean time over 100 runs): 0.012744244669665932
 Time part 2 (mean time over 100 runs): 0.001737059869665245
 ```
+
+## [Day 20 : Pulse Propagation](https://adventofcode.com/2023/day/20)
+
+[problem](https://adventofcode.com/2023/day/20) / [solution](./src/day20/)
+
+```text
+System: Linux
+Processor: x86_64
+Python version: 3.11.5
+Day: 20
+
+Time part 1 (mean time over 100 runs): 0.016365249169393793
+Time part 2 (mean time over 100 runs): 0.06030724461938007
+```
+
