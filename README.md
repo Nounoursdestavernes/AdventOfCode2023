@@ -285,3 +285,17 @@ Time part 1 (mean time over 100 runs): 0.016365249169393793
 Time part 2 (mean time over 100 runs): 0.06030724461938007
 ```
 
+## [Day 21 : Step Counter](https://adventofcode.com/2023/day/21)
+
+[problem](https://adventofcode.com/2023/day/21) / [solution](./src/day21/)
+
+```text
+System: Linux
+Processor: x86_64
+Python version: 3.11.5
+Day: 21
+
+Time part 1 (mean time over 100 runs): 0.045388254729998606
+Time part 2 (mean time over 100 runs): 18.558629519729998
+```
+
