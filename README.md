@@ -12,11 +12,11 @@ Additionnal rules (Personnal challenge) :
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 01
 
-Time part 1 (mean time over 100 runs): 0.0015881774299487006
-Time part 2 (mean time over 100 runs): 0.018001643849956964
+Time part 1 (mean time over 100 runs): 0.001738921380147076
+Time part 2 (mean time over 100 runs): 0.014629211970150208
 ```
 
 ## [Day 02 : Cube Conundrum](https://adventofcode.com/2023/day/2)
@@ -26,11 +26,11 @@ Time part 2 (mean time over 100 runs): 0.018001643849956964
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 02
 
-Time part 1 (mean time over 100 runs): 0.0006181102800655936
-Time part 2 (mean time over 100 runs): 0.0008301249300620839
+Time part 1 (mean time over 100 runs): 0.0004437485594098689
+Time part 2 (mean time over 100 runs): 0.0006725668694161868
 ```
 
 ## [Day 03 : Gear Ratios](https://adventofcode.com/2023/day/3)
@@ -40,11 +40,11 @@ Time part 2 (mean time over 100 runs): 0.0008301249300620839
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 03
 
-Time part 1 (mean time over 100 runs): 0.047818483430091874
-Time part 2 (mean time over 100 runs): 0.0024970108400884784
+Time part 1 (mean time over 100 runs): 0.035329644010489575
+Time part 2 (mean time over 100 runs): 0.002591375710489956
 ```
 
 ## [Day 04 : Scratchcards](https://adventofcode.com/2023/day/4)
@@ -54,11 +54,11 @@ Time part 2 (mean time over 100 runs): 0.0024970108400884784
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 04
 
-Time part 1 (mean time over 100 runs): 0.0021430449493618654
-Time part 2 (mean time over 100 runs): 0.0022388745293665125
+Time part 1 (mean time over 100 runs): 0.0017357029595768837
+Time part 2 (mean time over 100 runs): 0.0017665759495866951
 ```
 
 ## [Day 05 : If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)
@@ -68,11 +68,11 @@ Time part 2 (mean time over 100 runs): 0.0022388745293665125
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 05
 
-Time part 1 (mean time over 100 runs): 0.0009104374594153342
-Time part 2 (mean time over 100 runs): 0.0017209554094097257
+Time part 1 (mean time over 100 runs): 0.0007491262897383422
+Time part 2 (mean time over 100 runs): 0.001837876939753187
 ```
 
 ## [Day 06 : Wait For It](https://adventofcode.com/2023/day/6)
@@ -82,11 +82,11 @@ Time part 2 (mean time over 100 runs): 0.0017209554094097257
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 06
 
-Time part 1 (mean time over 100 runs): 0.00016929366013755496
-Time part 2 (mean time over 100 runs): 0.00015678192014092929
+Time part 1 (mean time over 100 runs): 4.7102870357775825e-05
+Time part 2 (mean time over 100 runs): 3.0433430365519597e-05
 ```
 
 ## [Day 07 : Camel Cards](https://adventofcode.com/2023/day/7)
@@ -96,11 +96,11 @@ Time part 2 (mean time over 100 runs): 0.00015678192014092929
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 07
 
-Time part 1 (mean time over 100 runs): 0.7561922088297706
-Time part 2 (mean time over 100 runs): 0.9346439599097812
+Time part 1 (mean time over 100 runs): 0.6516521626810754
+Time part 2 (mean time over 100 runs): 0.7880925664810638
 ```
 
 ## [Day 08 : Haunted Wasteland](https://adventofcode.com/2023/day/8)
@@ -110,11 +110,11 @@ Time part 2 (mean time over 100 runs): 0.9346439599097812
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 08
 
-Time part 1 (mean time over 100 runs): 0.0017647677706190733
-Time part 2 (mean time over 100 runs): 0.013277583510625846
+Time part 1 (mean time over 100 runs): 0.001825613311084453
+Time part 2 (mean time over 100 runs): 0.014204949311078963
 ```
 
 ## [Day 09 : Mirage Maintenance](https://adventofcode.com/2023/day/9)
@@ -124,11 +124,11 @@ Time part 2 (mean time over 100 runs): 0.013277583510625846
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 09
 
-Time part 1 (mean time over 100 runs): 0.0042447507596443754
-Time part 2 (mean time over 100 runs): 0.004258350119653187
+Time part 1 (mean time over 100 runs): 0.004257028949741653
+Time part 2 (mean time over 100 runs): 0.004283459479756857
 ```
 
 ## [Day 10 : Pipe Maze](https://adventofcode.com/2023/day/10)
@@ -138,11 +138,11 @@ Time part 2 (mean time over 100 runs): 0.004258350119653187
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 10
 
-Time part 1 (mean time over 100 runs): 0.03359245235000344
-Time part 2 (mean time over 100 runs): 0.003671874320007191
+Time part 1 (mean time over 100 runs): 0.04262787539124474
+Time part 2 (mean time over 100 runs): 0.003496956381259224
 ```
 
 ## [Day 11 : Cosmic Expansion](https://adventofcode.com/2023/day/11)
@@ -152,11 +152,11 @@ Time part 2 (mean time over 100 runs): 0.003671874320007191
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 11
 
-Time part 1 (mean time over 100 runs): 0.017360561810091893
-Time part 2 (mean time over 100 runs): 0.020982407190085723
+Time part 1 (mean time over 100 runs): 0.024840299249717646
+Time part 2 (mean time over 100 runs): 0.027677869649705825
 ```
 
 ## [Day 12 : Hot Springs](https://adventofcode.com/2023/day/12)
@@ -166,11 +166,11 @@ Time part 2 (mean time over 100 runs): 0.020982407190085723
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 12
 
-Time part 1 (mean time over 100 runs): 0.8077029309805858
-Time part 2 (mean time over 100 runs): 0.005779403120586721
+Time part 1 (mean time over 100 runs): 0.7066327791696131
+Time part 2 (mean time over 100 runs): 0.004207269669605012
 ```
 
 ## [Day 13 : Point of Incidence](https://adventofcode.com/2023/day/13)
@@ -180,11 +180,11 @@ Time part 2 (mean time over 100 runs): 0.005779403120586721
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 13
 
-Time part 1 (mean time over 100 runs): 0.0021281854799781287
-Time part 2 (mean time over 100 runs): 0.004695738939981311
+Time part 1 (mean time over 100 runs): 0.0016911074701783946
+Time part 2 (mean time over 100 runs): 0.0036949158601782984
 ```
 
 ## [Day 14 : Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)
@@ -194,11 +194,11 @@ Time part 2 (mean time over 100 runs): 0.004695738939981311
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 14
 
-Time part 1 (mean time over 100 runs): 0.0012109542798134497
-Time part 2 (mean time over 100 runs): 0.2657105385598152
+Time part 1 (mean time over 100 runs): 0.0011227407198202855
+Time part 2 (mean time over 100 runs): 0.3380398039998181
 ```
 
 ## [Day 15 : Lens Library](https://adventofcode.com/2023/day/15)
@@ -208,11 +208,11 @@ Time part 2 (mean time over 100 runs): 0.2657105385598152
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 15
 
-Time part 1 (mean time over 100 runs): 0.0024047853107094855
-Time part 2 (mean time over 100 runs): 0.0030980004107095736
+Time part 1 (mean time over 100 runs): 0.001995680778891256
+Time part 2 (mean time over 100 runs): 0.0024715820588789936
 ```
 
 ## [Day 16 : The Floor Will Be Lava](https://adventofcode.com/2023/day/16)
@@ -222,11 +222,11 @@ Time part 2 (mean time over 100 runs): 0.0030980004107095736
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 16
 
-Time part 1 (mean time over 100 runs): 0.009692019610038188
-Time part 2 (mean time over 100 runs): 1.4661557343900495
+Time part 1 (mean time over 100 runs): 0.0079840475499077
+Time part 2 (mean time over 100 runs): 1.2928976819899254
 ```
 
 ## [Day 17 : Clumsy Crucible](https://adventofcode.com/2023/day/17)
@@ -236,11 +236,11 @@ Time part 2 (mean time over 100 runs): 1.4661557343900495
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 17
 
-Time part 1 (mean time over 100 runs): 1.1480133792996456
-Time part 2 (mean time over 100 runs): 5.0874063983796445
+Time part 1 (mean time over 100 runs): 0.8378706604008584
+Time part 2 (mean time over 100 runs): 3.7408629715508503
 ```
 
 ## [Day 18 : Lavaduct Lagoon](https://adventofcode.com/2023/day/18)
@@ -250,11 +250,11 @@ Time part 2 (mean time over 100 runs): 5.0874063983796445
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 18
 
-Time part 1 (mean time over 100 runs): 12.24978793431952
-Time part 2 (mean time over 100 runs): 0.001351367569523063
+Time part 1 (mean time over 100 runs): 7.925088953850682
+Time part 2 (mean time over 100 runs): 0.0012537730906660726
 ```
 
 ## [Day 19 : Aplenty](https://adventofcode.com/2023/day/19)
@@ -264,11 +264,11 @@ Time part 2 (mean time over 100 runs): 0.001351367569523063
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 19
 
-Time part 1 (mean time over 100 runs): 0.012744244669665932
-Time part 2 (mean time over 100 runs): 0.001737059869665245
+Time part 1 (mean time over 100 runs): 0.008397767590795411
+Time part 2 (mean time over 100 runs): 0.0017571246107945626
 ```
 
 ## [Day 20 : Pulse Propagation](https://adventofcode.com/2023/day/20)
@@ -278,11 +278,11 @@ Time part 2 (mean time over 100 runs): 0.001737059869665245
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 20
 
-Time part 1 (mean time over 100 runs): 0.016365249169393793
-Time part 2 (mean time over 100 runs): 0.06030724461938007
+Time part 1 (mean time over 100 runs): 0.017438481590397716
+Time part 2 (mean time over 100 runs): 0.06464137701041181
 ```
 
 ## [Day 21 : Step Counter](https://adventofcode.com/2023/day/21)
@@ -292,10 +292,23 @@ Time part 2 (mean time over 100 runs): 0.06030724461938007
 ```text
 System: Linux
 Processor: x86_64
-Python version: 3.11.5
+Python version: 3.10.12
 Day: 21
 
-Time part 1 (mean time over 100 runs): 0.045388254729998606
-Time part 2 (mean time over 100 runs): 18.558629519729998
+Time part 1 (mean time over 100 runs): 0.03868607584021447
+Time part 2 (mean time over 100 runs): 15.434307255990225
 ```
 
+## [Day 22 : Sand Slabs](https://adventofcode.com/2023/day/22)
+
+[problem](https://adventofcode.com/2023/day/22) / [solution](./src/day22/)
+
+```text
+System: Linux
+Processor: x86_64
+Python version: 3.10.12
+Day: 22
+
+Time part 1 (mean time over 100 runs): 0.05043784775134554
+Time part 2 (mean time over 100 runs): 0.08702018335134198
+```
