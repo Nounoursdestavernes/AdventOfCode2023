@@ -312,3 +312,11 @@ Day: 22
 Time part 1 (mean time over 100 runs): 0.05043784775134554
 Time part 2 (mean time over 100 runs): 0.08702018335134198
 ```
+
+## [Day 23 : A Long Walk](https://adventofcode.com/2023/day/23)
+
+[problem](https://adventofcode.com/2023/day/23) / [solution](./src/day23/)
+
+```text
+Benchmark : Not done yet
+```
