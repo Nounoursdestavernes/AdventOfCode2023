@@ -4,6 +4,9 @@
 Additionnal rules (Personnal challenge) :
 - All solutions must be written in Python
 
+## Calendar
+![calendar](./calendar.png)
+
 
 ## [Day 01 : Trebuchet?!](https://adventofcode.com/2023/day/1)
 
@@ -339,4 +342,19 @@ Day: 24
 
 Time part 1 (mean time over 100 runs): 0.0905527600500136
 Time part 2 (mean time over 100 runs): 0.02106612732002759
+```
+
+
+## [Day 25 : Snowverload](https://adventofcode.com/2023/day/25)
+
+[problem](https://adventofcode.com/2023/day/25) / [solution](./src/day25/)
+
+```text
+System: Linux
+Processor: x86_64
+Python version: 3.10.12
+Day: 25
+
+Time part 1 (mean time over 100 runs): 0.061702796569825295
+Time part 2 (mean time over 100 runs): 0.0001058487698173849
 ```
