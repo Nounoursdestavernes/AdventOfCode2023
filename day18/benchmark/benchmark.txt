@@ -1,0 +1,7 @@
+System: Linux
+Processor: x86_64
+Bit architecture: 64bit
+Python version: 3.10.12
+Day: 18
+Part 1: 7.78388s mean time for 1 iterations
+Part 2: 0.00219s mean time for 1 iterations
